@@ -1,0 +1,26 @@
+{
+  "name": "misamart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoctran5596/servermisamart.git"
+  },
+  "author": "minngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoctran5596/servermisamart/issues"
+  },
+  "homepage": "https://github.com/ngoctran5596/servermisamart#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
