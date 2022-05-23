@@ -1,0 +1,25 @@
+<div class='mt-4'>
+  <h3>Production</h3>
+  <form enctype="multipart/form-data" method="POST" action="/products/add">
+    <div class='mb-3'>
+      <label for='name' class='form-label'>Name</label>
+      <input type='text' class='form-control' id='name' name='name' />
+    </div>
+    <div class='mb-3'>
+      <label for='description' class='form-label'>description</label>
+      <input type='text' class='form-control' id='description' name='description' />
+    </div>
+    <div class="mb-3">
+
+      <input class="form-control" type="file" id="formFile" name="formFile">
+
+
+    </div>
+    <div class='mb-3'>
+      <label for='price' class='form-label'>Price</label>
+      <input type='number' class='form-control' id='price' name='price' />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
